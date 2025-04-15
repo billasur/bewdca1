@@ -9,7 +9,7 @@ const users =[
 ]
 
 app.get('/',(req,res)=>{
-    return res.status(201).json({"message":"hello there"});
+    return res.status(201).json({"message":"hello there, Everything is working just fine"});
 })
 
 app.put('/change',(req,res)=>{
